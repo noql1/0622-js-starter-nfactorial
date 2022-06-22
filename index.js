@@ -7,7 +7,7 @@ app.use(express.json());
 const port = 3000;
 
 const uri =
-  "mongodb+srv://yerlan:yerlan007@cluster0.2u9knzu.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<user>:<pswrd>@cluster0.2u9knzu.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri);
 client
